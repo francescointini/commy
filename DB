@@ -17,7 +17,7 @@ Depositi:
 - indirizzo
 
 Servizi:
-- codice CHAR
+- codice_servizio CHAR
 - descrizione TEXT
 - costo DECIMAL(3, 2)
 
