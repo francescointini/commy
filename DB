@@ -1,0 +1,45 @@
+Farmaco:
+- id
+- codice CHAR 
+- descrizione TEXT
+- costo_unitario DECIMAL(3, 2)
+- quantità BIG INT
+- ricetta BOOL
+
+Accoglie {farmaco, magazzino}:
+- codice_farmaco CHAR
+- codice_magazzino CHAR
+- quantità BIG INT
+
+Depositi:
+- codice_deposito
+- denominazione
+- indirizzo
+
+Servizi:
+- codice CHAR
+- descrizione TEXT
+- costo DECIMAL(3, 2)
+
+Vendite:
+- codice CHAR
+- descrizione TEXT
+- costo DECIMAL(3, 2)
+- codice_farmaco CHAR
+- tipo di intervento TEXT
+- id_cliente 
+
+Cliente:
+- id CHAR
+- nome CHAR
+- cognome CHAR
+- pagamento CHAR
+- tessera_sanitaria CHAR
+- data_di_nascita DATE
+
+Dipendente:
+- id CHAR
+- nome CHAR
+- cognome CHAR
+- username CHAR
+- password CHAR
