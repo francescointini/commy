@@ -30,6 +30,7 @@ Vendite:
 - codice_tessera
 - codice_magazzino
 - indirizzo
+- evaso BOOL
 
 Cliente:
 - id CHAR
