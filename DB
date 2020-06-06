@@ -27,7 +27,9 @@ Vendite:
 - costo DECIMAL(3, 2)
 - codice_farmaco CHAR
 - tipo di intervento TEXT
-- id_cliente 
+- codice_tessera
+- codice_magazzino
+- indirizzo
 
 Cliente:
 - id CHAR
